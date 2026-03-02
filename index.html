@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="The Leading Stars School – Building Bright Futures with Knowledge and Character. Located at Wasu Road, Rehmanpura, Mandi Bahauddin, Pakistan. Admissions Open 2026." />
+    <meta name="keywords"
+        content="The Leading Stars School, Mandi Bahauddin, school admissions, playgroup, nursery, matriculation, Pakistan school" />
+    <meta name="author" content="The Leading Stars School System" />
+    <meta property="og:title" content="The Leading Stars – School System" />
+    <meta property="og:description" content="Building Bright Futures with Knowledge and Character." />
+    <meta property="og:type" content="website" />
+    <title>The Leading Stars – School System | Mandi Bahauddin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@600;700;800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <!-- ===== ANNOUNCEMENT BAR ===== -->
+    <div class="announcement-bar" id="announcementBar">
+        <div class="announcement-content">
+            <i class="fas fa-bullhorn"></i>
+            <span>🎉 Admissions Open 2026 – Enroll Your Child Today for a Brighter Tomorrow! &nbsp;|&nbsp; <a
+                    href="#admissions">Apply Now →</a></span>
+        </div>
+        <button class="close-announcement" id="closeAnnouncement" aria-label="Close announcement"><i
+                class="fas fa-times"></i></button>
+    </div>
+
+    <!-- ===== STICKY HEADER / NAVBAR ===== -->
+    <header class="header" id="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">
+                <div class="logo-icon"><i class="fas fa-star"></i></div>
+                <div class="logo-text">
+                    <span class="logo-main">The Leading Stars</span>
+                    <span class="logo-sub">School System</span>
+                </div>
+            </a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#programs" class="nav-link">Programs</a></li>
+                <li><a href="#why-us" class="nav-link">Why Us</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#admissions" class="nav-link btn-enroll-nav">Enroll Now</a></li>
+            </ul>
+
+            <button class="hamburger" id="hamburger" aria-label="Open navigation menu">
+                <span></span><span></span><span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero" id="home">
+        <div class="hero-slides">
+            <div class="hero-slide active" style="background-image: url('images/hero1.jpg')"></div>
+            <div class="hero-slide" style="background-image: url('images/hero2.jpg')"></div>
+            <div class="hero-slide" style="background-image: url('images/hero3.jpg')"></div>
+        </div>
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content container">
+            <div class="hero-badge animate-fade-up delay-1">
+                <i class="fas fa-award"></i> Excellence in Education Since Decades
+            </div>
+            <h1 class="hero-title animate-fade-up delay-2">
+                The <span class="highlight">Leading Stars</span><br />School System
+            </h1>
+            <p class="hero-tagline animate-fade-up delay-3">
+                "Building Bright Futures with Knowledge and Character"
+            </p>
+            <p class="hero-location animate-fade-up delay-4">
+                <i class="fas fa-map-marker-alt"></i> Wasu Road, Rehmanpura, Mandi Bahauddin, Pakistan
+            </p>
+            <div class="hero-buttons animate-fade-up delay-5">
+                <a href="#admissions" class="btn btn-primary">
+                    <i class="fas fa-user-plus"></i> Enroll Now
+                </a>
+                <a href="#contact" class="btn btn-outline">
+                    <i class="fas fa-phone-alt"></i> Contact Us
+                </a>
+            </div>
+
+            <div class="hero-stats animate-fade-up delay-6">
+                <div class="stat"><span class="stat-num" data-target="1200">0</span><span>+</span>
+                    <p>Students</p>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat"><span class="stat-num" data-target="45">0</span><span>+</span>
+                    <p>Teachers</p>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat"><span class="stat-num" data-target="20">0</span><span>+</span>
+                    <p>Years Legacy</p>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat"><span class="stat-num" data-target="98">0</span><span>%</span>
+                    <p>Pass Rate</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="scroll-arrow"><i class="fas fa-chevron-down"></i></div>
+        </div>
+
+        <div class="hero-slide-dots" id="slideDots">
+            <button class="dot active" data-slide="0" aria-label="Slide 1"></button>
+            <button class="dot" data-slide="1" aria-label="Slide 2"></button>
+            <button class="dot" data-slide="2" aria-label="Slide 3"></button>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Who We Are</span>
+                <h2 class="section-title">About <span class="highlight">Our School</span></h2>
+                <p class="section-subtitle">Nurturing young minds with quality education and holistic development</p>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-images">
+                    <div class="about-img-main reveal">
+                        <img src="images/474813488_9644923145557622_6767978368122878336_n.jpg"
+                            alt="The Leading Stars School building and campus" loading="lazy" />
+                    </div>
+                    <div class="about-img-small reveal delay-2">
+                        <img src="images/464770944_9132791346770807_5950133516497916752_n.jpg"
+                            alt="Students at The Leading Stars School" loading="lazy" />
+                    </div>
+                    <div class="about-experience-badge">
+                        <span class="badge-num">20+</span>
+                        <span class="badge-text">Years of<br />Excellence</span>
+                    </div>
+                </div>
+
+                <div class="about-content reveal">
+                    <p class="about-intro">
+                        The Leading Stars School System is a premier educational institution in Mandi Bahauddin,
+                        committed to delivering quality education from Playgroup to Matriculation. We believe every
+                        child is a star waiting to shine.
+                    </p>
+                    <p class="about-text">
+                        Our institution stands on the pillars of academic excellence, moral development, and creative
+                        growth. With a team of highly qualified educators and a nurturing environment, we ensure that
+                        every student reaches their full potential.
+                    </p>
+
+                    <div class="mission-vision">
+                        <div class="mv-card">
+                            <div class="mv-icon"><i class="fas fa-bullseye"></i></div>
+                            <h3>Our Mission</h3>
+                            <p>To provide affordable, high-quality education that empowers students academically,
+                                socially, and morally — preparing them to be responsible citizens and future leaders.
+                            </p>
+                        </div>
+                        <div class="mv-card">
+                            <div class="mv-icon"><i class="fas fa-eye"></i></div>
+                            <h3>Our Vision</h3>
+                            <p>To be the leading educational institution in the region, recognized for academic
+                                excellence, character building, and producing well-rounded individuals who contribute
+                                positively to society.</p>
+                        </div>
+                    </div>
+
+                    <div class="about-values">
+                        <div class="value-item"><i class="fas fa-check-circle"></i> Academic Excellence</div>
+                        <div class="value-item"><i class="fas fa-check-circle"></i> Character Building</div>
+                        <div class="value-item"><i class="fas fa-check-circle"></i> Islamic Values</div>
+                        <div class="value-item"><i class="fas fa-check-circle"></i> Creative Development</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PRINCIPAL'S MESSAGE ===== -->
+    <section class="principal section" id="principal">
+        <div class="container">
+            <div class="principal-card reveal">
+                <div class="principal-image">
+                    <div class="principal-avatar">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <div class="principal-badge"><i class="fas fa-quote-left"></i></div>
+                </div>
+                <div class="principal-content">
+                    <span class="section-tag">Leadership</span>
+                    <h2>Principal's <span class="highlight">Message</span></h2>
+                    <blockquote>
+                        "At The Leading Stars School System, we don't just educate students — we shape futures. Our team
+                        is dedicated to creating an environment where curiosity is celebrated, potential is nurtured,
+                        and every child feels valued, safe, and inspired.
+                        <br /><br />
+                        We combine modern teaching methodologies with strong moral values, because we believe true
+                        education encompasses both knowledge and character. Together with parents, we build a foundation
+                        that prepares our students for the challenges and opportunities of tomorrow."
+                    </blockquote>
+                    <div class="principal-info">
+                        <strong>The Principal</strong>
+                        <span>The Leading Stars School System</span>
+                        <span>Mandi Bahauddin, Pakistan</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROGRAMS / CLASSES SECTION ===== -->
+    <section class="programs section" id="programs">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Academics</span>
+                <h2 class="section-title">Classes &amp; <span class="highlight">Programs</span></h2>
+                <p class="section-subtitle">Comprehensive education from early childhood through matriculation</p>
+            </div>
+
+            <div class="programs-grid">
+                <div class="program-card reveal" data-delay="0">
+                    <div class="program-icon" style="--color:#6C63FF"><i class="fas fa-baby"></i></div>
+                    <div class="program-badge" style="--color:#6C63FF">Ages 2–3</div>
+                    <h3>Playgroup</h3>
+                    <p>A safe and joyful environment where toddlers explore, play, and develop essential social and
+                        cognitive skills through age-appropriate activities.</p>
+                    <ul class="program-features">
+                        <li><i class="fas fa-star"></i> Play-based learning</li>
+                        <li><i class="fas fa-star"></i> Motor skill development</li>
+                        <li><i class="fas fa-star"></i> Social interaction</li>
+                    </ul>
+                    <a href="#admissions" class="program-cta">Enroll Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="program-card reveal" data-delay="1">
+                    <div class="program-icon" style="--color:#FF6B6B"><i class="fas fa-child"></i></div>
+                    <div class="program-badge" style="--color:#FF6B6B">Ages 3–4</div>
+                    <h3>Nursery</h3>
+                    <p>Building foundational literacy and numeracy skills through storytelling, creative arts, and
+                        structured play that ignites love for learning.</p>
+                    <ul class="program-features">
+                        <li><i class="fas fa-star"></i> Early literacy</li>
+                        <li><i class="fas fa-star"></i> Basic numeracy</li>
+                        <li><i class="fas fa-star"></i> Creative expression</li>
+                    </ul>
+                    <a href="#admissions" class="program-cta">Enroll Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="program-card reveal" data-delay="2">
+                    <div class="program-icon" style="--color:#4CAF50"><i class="fas fa-pencil-alt"></i></div>
+                    <div class="program-badge" style="--color:#4CAF50">Ages 4–5</div>
+                    <h3>Prep</h3>
+                    <p>Transition stage preparing children for formal schooling with structured lessons in reading,
+                        writing, mathematics, and foundational concepts.</p>
+                    <ul class="program-features">
+                        <li><i class="fas fa-star"></i> Reading & writing</li>
+                        <li><i class="fas fa-star"></i> Basic mathematics</li>
+                        <li><i class="fas fa-star"></i> School readiness</li>
+                    </ul>
+                    <a href="#admissions" class="program-cta">Enroll Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="program-card reveal" data-delay="3">
+                    <div class="program-icon" style="--color:#2196F3"><i class="fas fa-book-open"></i></div>
+                    <div class="program-badge" style="--color:#2196F3">Classes 1–5</div>
+                    <h3>Primary</h3>
+                    <p>A robust curriculum covering core subjects with emphasis on analytical thinking, Islamic studies,
+                        Urdu, English, Mathematics, and Science.</p>
+                    <ul class="program-features">
+                        <li><i class="fas fa-star"></i> Core subjects</li>
+                        <li><i class="fas fa-star"></i> Critical thinking</li>
+                        <li><i class="fas fa-star"></i> Islamic values</li>
+                    </ul>
+                    <a href="#admissions" class="program-cta">Enroll Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="program-card reveal" data-delay="4">
+                    <div class="program-icon" style="--color:#FF9800"><i class="fas fa-flask"></i></div>
+                    <div class="program-badge" style="--color:#FF9800">Classes 6–8</div>
+                    <h3>Middle</h3>
+                    <p>Advanced academic programme developing deep subject knowledge, research skills, and preparing
+                        students for higher secondary education.</p>
+                    <ul class="program-features">
+                        <li><i class="fas fa-star"></i> Advanced subjects</li>
+                        <li><i class="fas fa-star"></i> Lab practicals</li>
+                        <li><i class="fas fa-star"></i> Leadership skills</li>
+                    </ul>
+                    <a href="#admissions" class="program-cta">Enroll Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="program-card reveal" data-delay="5">
+                    <div class="program-icon" style="--color:#9C27B0"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="program-badge" style="--color:#9C27B0">Classes 9–10</div>
+                    <h3>Matriculation</h3>
+                    <p>Board-level preparation with intensive coaching in all compulsory and elective subjects, guided
+                        by experienced teachers with exceptional results.</p>
+                    <ul class="program-features">
+                        <li><i class="fas fa-star"></i> Board exam prep</li>
+                        <li><i class="fas fa-star"></i> Expert coaching</li>
+                        <li><i class="fas fa-star"></i> Career guidance</li>
+                    </ul>
+                    <a href="#admissions" class="program-cta">Enroll Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== WHY CHOOSE US ===== -->
+    <section class="why-us section" id="why-us">
+        <div class="why-us-bg"></div>
+        <div class="container">
+            <div class="section-header light">
+                <span class="section-tag light">Our Strengths</span>
+                <h2 class="section-title">Why Choose <span class="highlight-light">Us?</span></h2>
+                <p class="section-subtitle light">We are committed to providing the best educational experience for
+                    every student</p>
+            </div>
+
+            <div class="why-us-grid">
+                <div class="why-card reveal">
+                    <div class="why-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+                    <h3>Qualified Teachers</h3>
+                    <p>Our dedicated team of certified, experienced educators bring passion and expertise to every
+                        classroom, ensuring personalized attention and quality instruction.</p>
+                </div>
+                <div class="why-card reveal">
+                    <div class="why-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Safe Environment</h3>
+                    <p>Student safety is our top priority. Our campus is secured with trained staff, strict protocols,
+                        and a nurturing atmosphere where every child thrives.</p>
+                </div>
+                <div class="why-card reveal">
+                    <div class="why-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Modern Teaching</h3>
+                    <p>We integrate technology and contemporary pedagogies into our curriculum, making learning
+                        engaging, interactive, and relevant to the modern world.</p>
+                </div>
+                <div class="why-card reveal">
+                    <div class="why-icon"><i class="fas fa-heart"></i></div>
+                    <h3>Character Building</h3>
+                    <p>Beyond academics, we nurture moral values, discipline, empathy, and leadership — shaping
+                        well-rounded individuals with strong ethical foundations.</p>
+                </div>
+                <div class="why-card reveal">
+                    <div class="why-icon"><i class="fas fa-tags"></i></div>
+                    <h3>Affordable Fees</h3>
+                    <p>Quality education shouldn't be a luxury. Our flexible, affordable fee structure ensures every
+                        family can access excellent schooling without financial burden.</p>
+                </div>
+                <div class="why-card reveal">
+                    <div class="why-icon"><i class="fas fa-trophy"></i></div>
+                    <h3>Proven Results</h3>
+                    <p>Our students consistently achieve outstanding board examination results, with many securing top
+                        positions at the district and national level.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FACILITIES SECTION ===== -->
+    <section class="facilities section" id="facilities">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Campus Life</span>
+                <h2 class="section-title">Our <span class="highlight">Facilities</span></h2>
+                <p class="section-subtitle">A world-class environment designed for holistic student development</p>
+            </div>
+
+            <div class="facilities-grid">
+                <div class="facility-item reveal">
+                    <div class="facility-img">
+                        <img src="images/464862170_9132651006784841_6564997013370354565_n.jpg"
+                            alt="Modern classrooms at The Leading Stars School" loading="lazy" />
+                        <div class="facility-overlay">
+                            <i class="fas fa-chalkboard"></i>
+                            <span>Modern Classrooms</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="facility-item reveal">
+                    <div class="facility-img">
+                        <img src="images/465012797_9132651243451484_1556360107961316748_n.jpg"
+                            alt="School events and activities" loading="lazy" />
+                        <div class="facility-overlay">
+                            <i class="fas fa-running"></i>
+                            <span>Sports & Activities</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="facility-item reveal">
+                    <div class="facility-img">
+                        <img src="images/464859964_9132650086784933_8272713694170316313_n.jpg" alt="School events"
+                            loading="lazy" />
+                        <div class="facility-overlay">
+                            <i class="fas fa-star"></i>
+                            <span>Annual Events</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="facility-item reveal">
+                    <div class="facility-img">
+                        <img src="images/464803516_9132650790118196_8558768971470681616_n.jpg"
+                            alt="School library and learning resources" loading="lazy" />
+                        <div class="facility-overlay">
+                            <i class="fas fa-book"></i>
+                            <span>Library Resources</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="uniform-section reveal">
+                <div class="uniform-content">
+                    <div class="uniform-icon"><i class="fas fa-tshirt"></i></div>
+                    <div>
+                        <h3>School Uniform</h3>
+                        <p>Our students wear a smart, professional uniform that instills discipline, a sense of
+                            belonging, and equality among all students regardless of background.</p>
+                    </div>
+                </div>
+                <div class="uniform-details">
+                    <div class="uniform-detail"><i class="fas fa-check"></i> Smart formal uniform</div>
+                    <div class="uniform-detail"><i class="fas fa-check"></i> Summer & winter sets</div>
+                    <div class="uniform-detail"><i class="fas fa-check"></i> Available at school</div>
+                    <div class="uniform-detail"><i class="fas fa-check"></i> Affordable pricing</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== GALLERY SECTION ===== -->
+    <section class="gallery section" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Memories</span>
+                <h2 class="section-title">Photo <span class="highlight">Gallery</span></h2>
+                <p class="section-subtitle">Glimpses from our vibrant school life and memorable events</p>
+            </div>
+
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="events">Events</button>
+                <button class="filter-btn" data-filter="campus">Campus</button>
+                <button class="filter-btn" data-filter="students">Students</button>
+            </div>
+
+            <div class="gallery-grid" id="galleryGrid">
+                <div class="gallery-item reveal" data-category="events">
+                    <img src="images/nal.jpg" alt="School annual event" loading="lazy" />
+                    <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+                </div>
+                <div class="gallery-item reveal" data-category="campus">
+                    <img src="images/475099356_1027689962500235_215472528932961501_n.jpg" alt="School campus"
+                        loading="lazy" />
+                    <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+                </div>
+                <div class="gallery-item reveal" data-category="students">
+                    <img src="images/465015813_9148819328501342_6967824938990324796_n.jpg" alt="Students"
+                        loading="lazy" />
+                    <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+                </div>
+                <div class="gallery-item reveal" data-category="events">
+                    <img src="images/464908067_9132649863451622_8957770362584419574_n.jpg" alt="School event"
+                        loading="lazy" />
+                    <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+                </div>
+                <div class="gallery-item reveal" data-category="students">
+                    <img src="images/464862170_9132651006784841_6564997013370354565_n.jpg" alt="Students at school"
+                        loading="lazy" />
+                    <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+                </div>
+                <div class="gallery-item reveal" data-category="events">
+                    <img src="images/465012797_9132651243451484_1556360107961316748_n.jpg" alt="Annual event"
+                        loading="lazy" />
+                    <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+                </div>
+                <div class="gallery-item reveal" data-category="campus">
+                    <img src="images/464803516_9132650790118196_8558768971470681616_n.jpg" alt="Campus life"
+                        loading="lazy" />
+                    <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+                </div>
+                <div class="gallery-item reveal" data-category="students">
+                    <img src="images/464859964_9132650086784933_8272713694170316313_n.jpg" alt="School students"
+                        loading="lazy" />
+                    <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+                </div>
+                <div class="gallery-item reveal" data-category="events">
+                    <img src="images/475134185_1027689932500238_5908955348079738834_n.jpg" alt="School ceremony"
+                        loading="lazy" />
+                    <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+                </div>
+                <div class="gallery-item reveal" data-category="campus">
+                    <img src="images/464770944_9132791346770807_5950133516497916752_n.jpg" alt="School building"
+                        loading="lazy" />
+                    <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+                </div>
+                <div class="gallery-item reveal" data-category="students">
+                    <img src="images/464793675_9132650810118194_8312428051755555354_n.jpg" alt="Student activities"
+                        loading="lazy" />
+                    <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+                </div>
+                <div class="gallery-item reveal" data-category="events">
+                    <img src="images/474841982_1027689959166902_6516676194892900256_n.jpg" alt="Prize distribution"
+                        loading="lazy" />
+                    <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+                </div>
+            </div>
+
+            <div class="gallery-load-more">
+                <button class="btn btn-outline-dark" id="loadMoreBtn">Load More Photos <i
+                        class="fas fa-images"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close lightbox"><i
+                class="fas fa-times"></i></button>
+        <button class="lightbox-prev" id="lightboxPrev" aria-label="Previous image"><i
+                class="fas fa-chevron-left"></i></button>
+        <button class="lightbox-next" id="lightboxNext" aria-label="Next image"><i
+                class="fas fa-chevron-right"></i></button>
+        <div class="lightbox-content">
+            <img id="lightboxImg" src="" alt="Gallery image" />
+            <p id="lightboxCaption"></p>
+        </div>
+    </div>
+
+    <!-- ===== TESTIMONIALS SECTION ===== -->
+    <section class="testimonials section" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Parent Reviews</span>
+                <h2 class="section-title">What <span class="highlight">Parents Say</span></h2>
+                <p class="section-subtitle">Hear from the families who trust us with their children's education</p>
+            </div>
+
+            <div class="testimonials-slider" id="testimonialsSlider">
+                <div class="testimonials-track" id="testimonialsTrack">
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"My son has been a student of The Leading Stars since Playgroup, and
+                            the transformation has been remarkable. The teachers genuinely care about each child's
+                            progress. I highly recommend this school to every parent in Mandi Bahauddin."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar"><i class="fas fa-user"></i></div>
+                            <div class="author-info">
+                                <strong>Ch. Muhammad Aslam</strong>
+                                <span>Parent of Class 5 Student</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Excellent school environment! My daughter scored the highest marks
+                            in board exams from this school. The dedication of the teaching staff is truly outstanding.
+                            The fee structure is very reasonable for the quality they provide."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar"><i class="fas fa-user"></i></div>
+                            <div class="author-info">
+                                <strong>Farida Bibi</strong>
+                                <span>Parent of Matriculation Student</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"The Leading Stars school has been a blessing for our family. Both
+                            my children study here and they love coming to school everyday. The moral and character
+                            education alongside academics makes it truly unique."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar"><i class="fas fa-user"></i></div>
+                            <div class="author-info">
+                                <strong>Rana Tariq Mehmood</strong>
+                                <span>Parent of Primary Students</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"I was initially hesitant, but after enrolling my child, I have no
+                            regrets. The teachers are highly qualified, approachable, and always keep parents informed
+                            about the child's progress. The school focuses on overall development, not just exams."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar"><i class="fas fa-user"></i></div>
+                            <div class="author-info">
+                                <strong>Amina Kausar</strong>
+                                <span>Parent of Middle School Student</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonials-controls">
+                <button class="testimonial-btn" id="testimonialPrev" aria-label="Previous testimonial"><i
+                        class="fas fa-chevron-left"></i></button>
+                <div class="testimonial-dots" id="testimonialDots"></div>
+                <button class="testimonial-btn" id="testimonialNext" aria-label="Next testimonial"><i
+                        class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ADMISSIONS SECTION ===== -->
+    <section class="admissions section" id="admissions">
+        <div class="container">
+            <div class="admissions-wrapper">
+                <div class="admissions-info reveal">
+                    <span class="section-tag">Join Us</span>
+                    <h2>Admissions <span class="highlight">Open 2026</span></h2>
+                    <p class="admissions-text">Give your child the best start in life. Enroll at The Leading Stars
+                        School System and be part of our growing family of successful students and proud parents.</p>
+
+                    <div class="admission-highlights">
+                        <div class="ah-item"><i class="fas fa-calendar-check"></i>
+                            <div><strong>Session</strong><span>2026–2027</span></div>
+                        </div>
+                        <div class="ah-item"><i class="fas fa-clock"></i>
+                            <div><strong>School Hours</strong><span>7:30 AM – 1:30 PM</span></div>
+                        </div>
+                        <div class="ah-item"><i class="fas fa-file-alt"></i>
+                            <div><strong>Required Docs</strong><span>B-Form, Photos, Report Card</span></div>
+                        </div>
+                        <div class="ah-item"><i class="fas fa-map-marker-alt"></i>
+                            <div><strong>Visit Us</strong><span>Wasu Road, Rehmanpura, M.B. Din</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="admissions-form reveal">
+                    <div class="form-card">
+                        <div class="form-header">
+                            <i class="fas fa-user-graduate"></i>
+                            <h3>Apply for Admission</h3>
+                            <p>Fill the form and we'll contact you shortly</p>
+                        </div>
+                        <form id="admissionForm" novalidate>
+                            <div class="form-group">
+                                <label for="studentName"><i class="fas fa-user"></i> Student Name *</label>
+                                <input type="text" id="studentName" name="studentName"
+                                    placeholder="Enter student's full name" required />
+                                <span class="form-error" id="studentNameError"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="parentName"><i class="fas fa-users"></i> Parent/Guardian Name *</label>
+                                <input type="text" id="parentName" name="parentName"
+                                    placeholder="Enter parent's full name" required />
+                                <span class="form-error" id="parentNameError"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="classApplying"><i class="fas fa-graduation-cap"></i> Class Applying For
+                                    *</label>
+                                <select id="classApplying" name="classApplying" required>
+                                    <option value="">Select Class</option>
+                                    <option value="Playgroup">Playgroup</option>
+                                    <option value="Nursery">Nursery</option>
+                                    <option value="Prep">Prep</option>
+                                    <option value="Class 1">Class 1</option>
+                                    <option value="Class 2">Class 2</option>
+                                    <option value="Class 3">Class 3</option>
+                                    <option value="Class 4">Class 4</option>
+                                    <option value="Class 5">Class 5</option>
+                                    <option value="Class 6">Class 6</option>
+                                    <option value="Class 7">Class 7</option>
+                                    <option value="Class 8">Class 8</option>
+                                    <option value="Class 9 (Matric)">Class 9 (Matric)</option>
+                                    <option value="Class 10 (Matric)">Class 10 (Matric)</option>
+                                </select>
+                                <span class="form-error" id="classApplyingError"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactNumber"><i class="fas fa-phone"></i> Contact Number *</label>
+                                <input type="tel" id="contactNumber" name="contactNumber" placeholder="+92 300 0000000"
+                                    required />
+                                <span class="form-error" id="contactNumberError"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="message"><i class="fas fa-comment"></i> Additional Message
+                                    (Optional)</label>
+                                <textarea id="message" name="message" rows="3"
+                                    placeholder="Any additional information..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-full">
+                                <i class="fas fa-paper-plane"></i> Submit Application
+                            </button>
+                        </form>
+                        <div class="form-success" id="formSuccess">
+                            <i class="fas fa-check-circle"></i>
+                            <h4>Application Submitted!</h4>
+                            <p>Thank you! We will contact you within 24 hours to confirm your admission.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get in Touch</span>
+                <h2 class="section-title">Contact <span class="highlight">Us</span></h2>
+                <p class="section-subtitle">We'd love to hear from you. Reach out to us any time.</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h3>Our Address</h3>
+                        <p>Wasu Road, Rehmanpura,<br />Mandi Bahauddin, Punjab, Pakistan</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+                        <h3>Phone Number</h3>
+                        <p><a href="tel:+920000000000">+92 XXX XXX XXXX</a></p>
+                        <p class="contact-note">Mon–Sat: 7:30 AM – 3:00 PM</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <h3>Email Address</h3>
+                        <p><a href="mailto:info@leadingstars.edu.pk">info@leadingstars.edu.pk</a></p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
+                        <h3>WhatsApp</h3>
+                        <p><a href="https://wa.me/920000000000" target="_blank" rel="noopener">+92 XXX XXX XXXX</a></p>
+                        <p class="contact-note">Quick response via WhatsApp</p>
+                    </div>
+                </div>
+
+                <div class="contact-map reveal">
+                    <div class="map-container">
+                        <iframe title="The Leading Stars School Location – Mandi Bahauddin"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54704.85048879836!2d73.44040165820313!3d32.58619090000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391f40ef74cac0c9%3A0x31cdb5d0b3a67a43!2sMandi%20Bahauddin%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1700000000000!5m2!1sen!2s"
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                    <div class="map-overlay-card">
+                        <i class="fas fa-star"></i>
+                        <span>The Leading Stars School</span>
+                        <small>Wasu Road, Rehmanpura, M.B. Din</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-brand">
+                        <a href="#home" class="footer-logo">
+                            <div class="logo-icon"><i class="fas fa-star"></i></div>
+                            <div class="logo-text">
+                                <span class="logo-main">The Leading Stars</span>
+                                <span class="logo-sub">School System</span>
+                            </div>
+                        </a>
+                        <p class="footer-desc">Building bright futures with knowledge and character. Providing quality
+                            education from Playgroup to Matriculation in the heart of Mandi Bahauddin.</p>
+                        <div class="social-links">
+                            <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                            <a href="https://wa.me/920000000000" class="social-link" aria-label="WhatsApp"
+                                target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i></a>
+                            <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="footer-links">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                            <li><a href="#about"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                            <li><a href="#programs"><i class="fas fa-chevron-right"></i> Programs</a></li>
+                            <li><a href="#gallery"><i class="fas fa-chevron-right"></i> Gallery</a></li>
+                            <li><a href="#admissions"><i class="fas fa-chevron-right"></i> Admissions</a></li>
+                            <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-programs">
+                        <h4>Our Programs</h4>
+                        <ul>
+                            <li><a href="#programs"><i class="fas fa-chevron-right"></i> Playgroup</a></li>
+                            <li><a href="#programs"><i class="fas fa-chevron-right"></i> Nursery</a></li>
+                            <li><a href="#programs"><i class="fas fa-chevron-right"></i> Prep</a></li>
+                            <li><a href="#programs"><i class="fas fa-chevron-right"></i> Primary (1–5)</a></li>
+                            <li><a href="#programs"><i class="fas fa-chevron-right"></i> Middle (6–8)</a></li>
+                            <li><a href="#programs"><i class="fas fa-chevron-right"></i> Matriculation</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-contact">
+                        <h4>Contact Info</h4>
+                        <div class="footer-contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Wasu Road, Rehmanpura, Mandi Bahauddin, Pakistan</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>+92 XXX XXX XXXX</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@leadingstars.edu.pk</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Mon–Sat: 7:30 AM – 1:30 PM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 The Leading Stars School System. All Rights Reserved.</p>
+                <p>Designed with <i class="fas fa-heart" style="color:#e74c3c"></i> for Quality Education</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== WHATSAPP FLOATING BUTTON ===== -->
+    <a href="https://wa.me/920000000000" class="whatsapp-float" target="_blank" rel="noopener"
+        aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-tooltip">Chat with us!</span>
+    </a>
+
+    <!-- ===== BACK TO TOP ===== -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
